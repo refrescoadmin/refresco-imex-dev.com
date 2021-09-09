@@ -1,0 +1,145 @@
+.btn {
+	cursor:pointer;
+}
+
+td{
+ background-color: #ffffff;
+}
+
+table.style_purp, th{
+
+	font-family: Quicksand, Trebuchet MS, Helvetica, sans-serif;
+	background-color: #08820E;
+	font-size: 14px;
+	color: #FFFFFF;
+	border-color: #660066;
+	text-indent: 0px;
+	
+}
+
+.nav-link {
+	color:green;
+}
+
+.hover { 
+	font-family: Quicksand, Trebuchet MS, Helvetica, sans-serif;
+	background-color: #F49611;
+	cursor:pointer;
+	color:white;	
+}
+
+.filter.on {
+	background-image: url('/matcreation_test/img/filter-icon.png');
+	display: inline-block;
+   	height: 20px;
+    	width: 100%;
+   	background-position-x: center;
+  	background-size: 12px;
+    	background-size: 12px;
+ 	background-repeat: no-repeat;
+}
+
+.overViewHover 
+{
+	font-family: Quicksand, Trebuchet MS, Helvetica, sans-serif;
+	background-color: #F49611;
+	cursor:pointer;
+	color:white;	
+}
+
+.maingrey {
+	background-color: #E0E0D1;
+}
+
+/*----- Accordion -----*/
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+ 
+.accordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+    background:#f7f7f7;
+}
+ 
+/*----- Section Titles -----*/
+.accordion-section-title {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    /*border-bottom:1px solid #1a1a1a;*/
+    background:#F49611;
+    transition:all linear 0.15s;
+    /* Type */
+    font-family: Quicksand, Trebuchet MS’, Helvetica, sans-serif;
+	background-color: #F49611;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+ 
+.accordion-section-title.active, .accordion-section-title:hover {
+    background:#f4d2a1;
+    /* Type */
+    text-decoration:none;
+	color:#000000;
+}
+ 
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+ 
+.accordion-section-title-complete {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    /*border-bottom:1px solid #1a1a1a;*/
+    background:#660066;
+    transition:all linear 0.15s;
+    /* Type */
+    font-family: Quicksand, Trebuchet MS’, Helvetica, sans-serif;
+	background-color: #00b359;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+ 
+.accordion-section-title.active-complete, .accordion-section-title-complete:hover {
+    background:#b3ffb3;
+    /* Type */
+    text-decoration:none;
+	color:#000000;
+}
+ 
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+ 
+.accordion-section:last-child .accordion-section-title-complete {
+    border-bottom:none;
+} 
+ 
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding:15px;
+    display:none;
+}
+
+#ui-id-1 {
+	z-index:2000;
+}
+
+.pagination {
+	padding: 4px;
+}
+
+.pagination .disabled {
+	display:none;
+}
+
+.pagination a {
+	padding:5px;
+}
